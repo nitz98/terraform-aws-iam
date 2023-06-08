@@ -1,0 +1,16 @@
+name: terraform-module-ci
+on:
+  pull_request:
+    paths:
+      - "**.tf"
+      - "version.yaml"
+permissions:
+  checks: write
+  contents: write
+  id-token: write
+  pull-requests: write
+jobs:
+  terraform-module-ci:
+    name: terraform-module-ci
+    secrets: inherit
+    uses: CPC-SCP/iep-reusable-gha-workflows/.github/workflows/terraform-module-ci.yaml@main

@@ -1,0 +1,2 @@
+# remove @CPC-SCP/terraform-modules-developers once we're actually using this code on a live environment
+*       @CPC-SCP/aws-lza-configs-owners @CPC-SCP/terraform-modules-developers

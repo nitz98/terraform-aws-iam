@@ -1,0 +1,4 @@
+name: terraform-aws-iam
+version:
+  major: 0
+  minor: 7
